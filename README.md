@@ -12,9 +12,10 @@ The app is the result of my studies of the cs193p classes. The topics covered in
 
 ## Pictures
 
-<img src="oooo" width=300>
-<img src="oooo" width=300>
+<img src="https://github.com/inaldor/Memorize/blob/master/app-images/memorize1.png" width=300>
+<img src="https://github.com/inaldor/Memorize/blob/master/app-images/memorize2.png" width=300>
+<img src="https://github.com/inaldor/Memorize/blob/master/app-images/helloworld.png" width=300>
 
 ## License
 
-This project is licensed under the [MIT License](oooo)
+This project is licensed under the [MIT License](https://github.com/inaldor/Memorize/blob/master/LICENSE)
