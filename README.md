@@ -2,7 +2,7 @@
 A memory game app
 
 ## About
-The app is the result of my studies of the cs193p classes. The topics covered in this demo app was UISwift, Functional Programming, MVVM, Reactive UI and Animation. 
+The app is the result of my studies of the cs193p classes. The topics covered in this demo app was SwiftUI, Functional Programming, MVVM, Reactive UI and Animation. 
 
 ## Features
 * The objective is to reveal the most pairs of cards
