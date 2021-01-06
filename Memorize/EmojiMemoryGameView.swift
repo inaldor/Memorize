@@ -50,8 +50,30 @@ struct CardView: View {
     
     let cornerRadius: CGFloat = 10
     let edgeLineWidth: CGFloat = 3
+    
     func fontSize(for size: CGSize) -> CGFloat {
-        min(size.width, size.height) * 0.75
+        
+        var viewModel: EmojiMemoryGame?
+        
+        print(viewModel?.cards.last)
+        
+        //PAREI AQUI - NAO SEI COMO ACESSAR O MODEL - ta vindo como nil tem algo errado - nao sei o q fazer - mas tem q criar a variavel como opcional senao da erro - nao sei como vir as cartas e o count
+        
+        //print(viewModel?.cards.description)
+        
+        //print(viewModel!)
+        
+        //let viewModel: EmojiMemoryGame
+        
+        //print(viewModel.cards.count as Any)
+        
+        //print(viewModel?.cards.count)
+        
+        //print(numberOfCards?.cards.count)
+        
+        //if pairsOfCards.
+        
+        return(min(size.width, size.height) * 0.75)
     }
 }
 
