@@ -34,12 +34,13 @@ struct MemoryGame<CardContent> {
         
         cards = Array<Card>()
         
-            cards = Array<Card>()
+            //cards = Array<Card>()
             for pairIndex in 0..<numberOfPairsOfCards {
                 let content = cardContentFactory(pairIndex)
                 cards.append(Card(isMatched: false, content: content, id: pairIndex*2))
                 cards.append(Card(isMatched: false, content: content, id: pairIndex*2+1))
             }
+            cards.shuffle()
         }
         
         //3let randomInt = Int.random(in: 0..<numberOfPairsOfCards)
@@ -84,7 +85,7 @@ struct MemoryGame<CardContent> {
 //}
     struct Card: Identifiable {
         
-        var isFaceUp: Bool = true
+        var isFaceUp: Bool = false
         var isMatched: Bool = false
         var content: CardContent
         var id: Int
